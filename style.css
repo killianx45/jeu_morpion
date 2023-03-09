@@ -1,0 +1,43 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 2rem;
+    background: rgba(30, 30, 30, 1);;
+}
+h1{
+    color: white;
+    font-weight: 900;
+} 
+#grid {
+    display: grid;
+    grid-template-columns: 5rem 5rem 5rem;
+    grid-template-rows: 5rem 5rem 5rem;
+    gap: 1rem;
+    margin: 3rem auto;
+} 
+.case {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: white;
+}
+p {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+p:first-of-type {
+    color: rgb(250, 152, 72);
+}
